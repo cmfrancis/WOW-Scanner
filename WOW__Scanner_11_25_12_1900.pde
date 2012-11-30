@@ -21,10 +21,10 @@ Still need to create an up to date schematic in Eagle and make some board files.
 */
 
 int ledPin = 6;                         // LED on pin 6 (PWM)
-int beeperPin = 7;                      // Beeper on pin 5
-int senseIRPin = A4;                    // Sensor on analog pin 0
-int sensePotPin = A1;                   // Sensitivity pot on analog pin 2
-int brightPotPin = A0;                  // Brightness pot on analog pin 1
+int beeperPin = 7;                      // Beeper on pin 7
+int senseIRPin = A4;                    // Sensor on analog pin 4
+int sensePotPin = A1;                   // Sensitivity pot on analog pin 1
+int brightPotPin = A0;                  // Brightness pot on analog pin 0
 
 void setup()
 {
